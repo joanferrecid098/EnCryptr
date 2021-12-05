@@ -26,4 +26,4 @@ app.post('/decrypt', (req, res) => {
     res.render('result.ejs', {encrypted: decrypted, token: secret});
 })
 
-app.listen(8080, () => console.log('listening on port'));
+app.listen(process.env.port || 8080, () => console.log('listening on port'));
