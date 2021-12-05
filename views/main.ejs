@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N-Crypter</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to N-Crypter. A secret encrypter for hackers.</h1>
+    <h3>Bienvenido a N-Crypter. Un encryptador secreto para hackers.</h3>
+    <h6>欢迎使用 N-Crypter。黑客的秘密加密器。</h6>
+
+    <p>Encrypt</p>
+    <form action="/encrypt" method="post">
+        <input type="text" namespace="Decrypted word" name="decrypted" id="decrypted">
+        <input type="password" namespace="Secret token" name="secret" id="secret">
+        <input type="submit" value="Encrypt">
+    </form>
+
+    <p>Decrypt</p>
+    <form action="/decrypt" method="post">
+        <input type="text" namespace="Encrypted word" name="encrypted" id="encrypted">
+        <input type="password" namespace="Secret token" name="secret" id="secret">
+        <input type="submit" value="Decrypt">
+    </form>
+
+</body>
+<script>
+
+</script>
+</html>

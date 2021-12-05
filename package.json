@@ -1,0 +1,19 @@
+{
+  "name": "n-crypter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "npx nodemon main.js"
+  },
+  "author": "JuliaN",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cryptr": "^6.0.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
